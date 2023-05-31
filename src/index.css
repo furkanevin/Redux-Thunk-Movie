@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.film {
+  max-width: 300px;
+  cursor: pointer;
+}
+.film img {
+  width: 100%;
+}
+.film img:hover {
+  scale: 1.02;
+}
+.movie-detail {
+  display: flex;
+  height: 96vh;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
